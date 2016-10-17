@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Arial";
+}
+
+#header, #navbar, #body, #footer {
+    width: 100%;
+    min-width: 640px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    position: relative;
+}
+
+#navbar, #footer {
+	text-align: center;
+}
+
+#content {
+    min-height: 375px;
+    font-size: 20px;
+    margin: 15px 10px 0px 10px;
+}
+
+#footer {
+    font-size: 12px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
